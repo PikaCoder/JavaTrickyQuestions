@@ -23,7 +23,7 @@ public final class Employee {
 		return salary;
 	}
 	public Date getDob() {
-		return dob;
+		return new Date(dob.getTime());
 	}
 	
 	@Override

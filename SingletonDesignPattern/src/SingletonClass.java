@@ -1,4 +1,4 @@
-
+ 
 public class SingletonClass {
 	    private static SingletonClass myObj;
 		private SingletonClass() {
